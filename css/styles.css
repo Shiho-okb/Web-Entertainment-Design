@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* 共通 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 0.875rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ヘッダー */
+#header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  line-height: 1px;
+  margin-right: 60px;
+}
+
+.logo a {
+  display: block;
+}
+
+.inner ul {
+  display: flex;
+  list-style: none;
+}
+
+.inner li {
+  margin-right: 30px;
+}
+
+.contact {
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  text-align: center;
+}
