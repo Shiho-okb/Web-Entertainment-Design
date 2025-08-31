@@ -23,6 +23,8 @@ li {
 }
 
 a {
+  color: #000;
+  font-size: 0.875rem;
   text-decoration: none;
 }
 
