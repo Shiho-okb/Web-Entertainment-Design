@@ -33,6 +33,16 @@ a {
   margin: 0 auto;
 }
 
+.logo {
+  width: 100px;
+  line-height: 1px;
+  margin-right: 60px;
+}
+
+.logo a {
+  display: block;
+}
+
 .section-title {
   font-weight: normal;
   line-height: 1;
@@ -73,16 +83,6 @@ a {
 #header .inner {
   display: flex;
   align-items: center;
-}
-
-.logo {
-  width: 100px;
-  line-height: 1px;
-  margin-right: 60px;
-}
-
-.logo a {
-  display: block;
 }
 
 #header .inner ul {
@@ -305,3 +305,30 @@ a {
   height: 400px;
   object-fit: cover;
 }
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+#footer {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+#footer .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+#footer .flex .logo {
+  margin-right: 0;
+}
+
+#footer .copyright {
+  font-size: 0.625rem;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
